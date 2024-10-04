@@ -1,0 +1,275 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.btn_container{
+    display: inline-block;
+    width: 100%;
+}
+.btn{
+    background-color: #38424c;
+    color: #f9f9f9;
+    height: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    float: center;
+    vertical-align: top;
+    font-size: 15px;
+}
+.btn:hover{
+    color:black;
+    background-color: white;
+}
+
+.hero {
+    padding: 50px 250px;
+    background-image: url('background.jpg');
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-position: center; /* Centers the image */
+    height: 65vh; /* Adjust height of the hero section */
+        /*color: white; /* Text color (if needed) */
+        font-family: 'Times New Roman', Times, serif;
+}
+
+/* Section Styles */
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #555;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+.profile-pic {
+    width: 150px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Skills Section */
+.skill {
+    margin: 10px 0;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #ddd;
+    height: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.progress-bar div {
+    height: 10px;
+    border-radius: 5px;
+}
+
+.html {
+    width: 90%;
+    background-color: #4CAF50;
+}
+
+.css {
+    width: 85%;
+    background-color: #2196F3;
+}
+
+.js {
+    width: 75%;
+    background-color: #FFC107;
+}
+
+.php {
+    width: 80%;
+    background-color: #FF5722;
+}
+/* About Section */
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #f9f9f9;
+}
+
+.about img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.about-info {
+    flex: 1;
+    margin-left: 30px;
+}
+
+.about-info h3 {
+    color: #ff4081;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-info p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Practical and Skills Section */
+.skills-practical {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.practical, .skills {
+    width: 48%;
+}
+
+.practical h3, .skills h3 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.practical ul, .skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills ul li {
+    margin-bottom: 25px;
+}
+
+
+.skill-bar {
+    position: relative;
+    width: 100%;
+    background-color: #ddd;
+    height: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.skill-bar div {
+    height: 100%;
+    background-color: #4caf50;
+    border-radius: 5px;
+    text-align: right;
+    padding-right: 5px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 10px;
+}
+
+.html { width: 90%; }
+.css { width: 85%; }
+.jquery { width: 70%; }
+.php { width: 75%; }
+
+.download-cv {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn2 {
+    background-color: #ff4081;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn2:hover {
+    background-color: lightskyblue;
+    color: black;
+}
+
+.contact{
+    color: white;
+    background-color: black;
+    padding-bottom: 19%;
+    padding-left: 12%;
+    margin-left: -12.5%;
+    margin-right: -12.5%;
+    margin-bottom: -7%;
+}
+
+/*logo*/
+.social_buttons{   
+    display: flex;
+    align-items: flex-end;
+    margin-top: 30px;
+    float: right;
+    height: 50px;
+    width:  400px;    
+}
+
+.b_social{
+    margin-right: 40px;
+    background-color: rgb(220, 14, 14);
+    border-style: none;
+}
+
+.fa-instagram{
+    font-size:40px;
+}
+.fa-instagram:hover{
+    opacity: 1;
+}
+.fa-facebook{
+    font-size:40px;   
+}
+.fa-facebook:hover{
+    opacity: 0.6;
+}
+.fa-facebook-messenger{
+    font-size:40px;
+}
+.fa-facebook-messenger:hover{
+    opacity: 0.6;
+}
+.fa-x{
+    font-size:40px;
+}
+.fa-x:hover{
+    opacity: 0.6;
+}
